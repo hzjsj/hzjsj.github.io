@@ -91,7 +91,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "王秀龙",
+    "author": "小柒",
     "authorAvatar": "/avatar.png",
     "record": "皖ICP备19005551号-3",
     "recordLink":"https://beian.miit.gov.cn",
