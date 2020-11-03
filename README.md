@@ -54,6 +54,10 @@ yarn dev
 ```
 yarn build
 ```
+5.  自动部署
+```
+yarn deploy
+```
 
 #### 参与贡献
 
