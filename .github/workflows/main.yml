@@ -20,4 +20,4 @@ jobs:
           envId: ${{ secrets.ENV_ID }}
           # Github 项目静态文件的路径
           staticSrcPath: public
-          staticDestPath:blog
+          staticDestPath: blog
