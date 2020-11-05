@@ -31,16 +31,11 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
-      // {
-      //   "text": "Docs",
-      //   "icon": "reco-message",
-      //   "items": [
-      //     {
-      //       "text": "vuepress-reco",
-      //       "link": "/docs/theme-reco/"
-      //     }
-      //   ]
-      // },
+      {
+        "text": "随笔",
+        "icon": "reco-suggestion",
+        "link": "/docs/life/"
+      },
       {
         "text": "联系",
         "icon": "reco-message",
@@ -54,11 +49,9 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
+      "/docs/life/": [
         "",
-        "theme",
-        "plugin",
-        "api"
+        "dream"
       ]
     },
     "type": "blog",
@@ -95,7 +88,12 @@ module.exports = {
     "authorAvatar": "/avatar.png",
     "record": "皖ICP备19005551号-3",
     "recordLink":"https://beian.miit.gov.cn",
-    "startYear": "2018"
+    "startYear": "2018",
+    "huawei": true,
+    "docsRepo": 'https://github.com/hzjsj/hzjsj.github.io',
+    "docsBranch": 'main',
+    "editLinks": true,
+    "editLinkText": '帮助我们改善此页面！'
   },
   "markdown": {
     "lineNumbers": true
